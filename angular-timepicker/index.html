@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>angular-timepicker</title>
+    <script src="lib/angular/angular.min.js"></script>
+    <link rel="stylesheet" href="css/timepicker.css">
+
+    <!--<script src="js/directive.js"></script>-->
+    <script src="js/timepicker.js"></script>
+</head>
+<body ng-app="myApp">
+<div ng-controller="TimepickerDemoCtrl">
+    <ts-hello>
+        <div>我是自定义指令在HTML里的内容</div>
+    </ts-hello>
+
+    <div style="float:left;
+     width: 100px;
+     height:30px;
+      background-color:lightblue;
+      text-align: center;
+      line-height: 30px;
+      font-size: 14px;
+      cursor: pointer"
+         ng-click="clic()">按钮</div>
+
+
+
+    <time-Picker></time-Picker>
+
+
+</div>
+</body>
+
+</html>
