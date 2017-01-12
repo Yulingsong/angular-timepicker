@@ -6,10 +6,13 @@
     <script src="lib/angular/angular.min.js"></script>
     <link rel="stylesheet" href="css/timepicker.css">
     <script src="js/timepicker.js"></script>
+    <script src="js/directive.js"></script>
 </head>
 <body ng-app="myApp">
 <div ng-controller="TimepickerDemoCtrl">
+
     <co-timepicker hour="hour" minute="minute"></co-timepicker>
+
     <button ng-click="getInfo()" style="width: 100px;height: 30px;margin-left: 20px;background-color:lightblue;border: 0;cursor: pointer;outline: none">获取时间</button>
 </div>
 </body>

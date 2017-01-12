@@ -5,8 +5,7 @@
     height: 32px;
     border: 1px solid #cccccc;
 }
-
-.fl{
+.wi-timepicker-fl{
     float: left;
 }
 .wi-timepicker-timeinput{
@@ -18,9 +17,7 @@
     line-height: 30px;
     border:0;
     outline: none;
-    /*background-color: lightgrey;*/
 }
-
 .wi-timepicker-change-box{
     width: 15px;
     height: 30px;
@@ -38,11 +35,11 @@
     text-align: center;
     line-height: 30px;
 }
-.arrow-up{
+.wi-timepicker-arrow-up{
     background: url("../img/time-up.png")no-repeat center center;
     background-size: 14px 6px;
 }
-.arrow-down{
+.wi-timepicker-arrow-down{
     background: url("../img/time-down.png")no-repeat center center;
     background-size: 14px 6px;
 }
